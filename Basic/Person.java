@@ -18,7 +18,7 @@ public class Person {
     class Student{
         String name;
         int age;
-        void greet() {
+         void greet() {
             System.out.println("Hello, my name is " + name + "."); 
             System.out.println("I am " + age + " years old."); 
         }
