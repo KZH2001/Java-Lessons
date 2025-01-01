@@ -7,6 +7,6 @@ public class ClassB {
         a.defaultMethod();
         a.protectedMethod();
         a.publicMethod();
-        a.privateMethod();
+        // a.privateMethod();
     } 
 }
