@@ -2,18 +2,16 @@ package StudyRightNow;
 
 public class primeFunction {
     public static void main(String[] args) {
-    
- isPrime(3);  
-    // System.out.println(result);
-}
-public static boolean isPrime(int n){
-    int div =2;
-    while (n%div!=0){
-        div++;
-        
-    }if (n == div)
-    return true;
-    else
-    return false;
-}
+        boolean result = isPrime(4);  
+        System.out.println(result);
+    }
+    public static boolean isPrime(int n){
+        if (n <= 1) return false;
+        for (int div = 2; div <= Math.sqrt(n); div++) {
+            if (n % div == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
