@@ -1,17 +1,30 @@
 package StudyRightNow;
 
 public class primeFunction {
-    public static void main(String[] args) {
-        boolean result = isPrime(4);  
-        System.out.println(result);
-    }
-    public static boolean isPrime(int n){
-        if (n <= 1) return false;
-        for (int div = 2; div <= Math.sqrt(n); div++) {
-            if (n % div == 0) {
+
+    public sta boolean isPrime(int p) {
+
+        int div = 2;
+        while (p % div != 0) {
+            {
+                div++;
+            }
+            if (p == div) {
+                return true;
+            } else {
                 return false;
             }
         }
-        return true;
+    }
+
+    public static void main(String[] args) {
+        boolean ans = isPrime(7);
+        if (ans == true) {
+            System.out.println("is Prime number.");
+
+        } else {
+            System.out.println("is not a Prime number.");
+
+        }
     }
 }
