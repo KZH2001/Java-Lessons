@@ -10,6 +10,7 @@ public static void main(String[] args) {
 
     var demo = new MethodDemo1();
     demo.instanceMethod2();
+    staticMethod2();
 }
     void instanceMethod1(){
         System.out.println("Instance Method 1");
