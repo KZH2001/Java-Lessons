@@ -7,16 +7,11 @@ public class Student1 {
     String email;
     String address;
 
+public static class Builder  {
 
-    public static Student1 createWithName(String name){
-        var student = new Student1();
-        student.name = name;
-        return student;
-
+    public Student1 build(){
+        
     }
-
-    public static Student1 createWithPhone(String phone){
-
-    }
+}
 
 }
