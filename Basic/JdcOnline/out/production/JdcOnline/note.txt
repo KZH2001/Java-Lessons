@@ -1,0 +1,21 @@
+  Method
+  ------
+  
+  void instanceMethod(){
+        System.out.println("Instance Method");
+
+    }
+
+     static void staticMethod(){
+        System.out.println("Static Method");
+
+    }
+
+---------------------------------------------------------------------------
+
+    Constructor 
+    ------------
+
+    public Initatilization(){
+        System.out.print("Constructor");
+    }
