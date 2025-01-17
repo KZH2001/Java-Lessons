@@ -19,3 +19,10 @@
     public Initatilization(){
         System.out.print("Constructor");
     }
+
+    -------------------------------------------------------
+
+
+    Static Vs None
+
+    if don't used static , need to build object
