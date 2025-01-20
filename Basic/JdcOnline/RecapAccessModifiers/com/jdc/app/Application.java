@@ -1,4 +1,4 @@
-package com.jdc.App;
+package com.jdc.app;
 public class Application {
     String message;
 

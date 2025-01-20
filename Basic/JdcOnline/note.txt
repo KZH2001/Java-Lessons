@@ -19,3 +19,22 @@
     public Initatilization(){
         System.out.print("Constructor");
     }
+
+
+
+    ----------------------------------------------------------
+
+
+    protected
+
+    --the same package
+    --not different package
+
+
+   private
+
+   --the same class
+   --not different package
+   --not same package
+
+
