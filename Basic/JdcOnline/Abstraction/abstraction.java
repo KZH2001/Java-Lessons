@@ -1,11 +1,11 @@
-class Animal{
+abstract class Animal{
 
     private String type;
 
     Animal(String type){
         this.type = type;
     }
-    void eat(String food){
+    abstract void eat(String food){
 System.out.println("%s is eating %s.".formatted(type,food));
     }
 }
@@ -16,7 +16,11 @@ class Dog extends Animal {
     }
 }
 
-class Cat extends Animal{}
+class Cat extends Animal{
+    public Cat(){
+        super("Cat");
+    }
+}
 
 class Demo{
 
