@@ -37,4 +37,12 @@
    --not different package
    --not same package
 
+-----------------------------------------------------
 
+Abstraction
+
+abstract class Animal{
+
+}
+
+cannot create Animal object
