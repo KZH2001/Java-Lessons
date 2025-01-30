@@ -11,13 +11,17 @@ public class Child extends Super{
     @Override
     public void greet(){
         System.out.println("Hello from child! I am %s.". formatted(name));
-        System.out.println("Name from super class is %s." .formatted(super.namen));
+        System.out.println("Name from super class is %s." .formatted(super.name));
 
     }
 
     public static void showCount(){
         System.out.println("Count is %d.".formatted(count));
         System.out.println("Count from super class is %s.".formatted(Super.count));
+    }
+
+    public static void usingHiddenMethod(){
+        Super.showCount();
     }
 
 }
