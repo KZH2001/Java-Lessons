@@ -15,6 +15,8 @@ public class Child extends Super{
 
     }
 
+
+    //static method
     public static void showCount(){
         System.out.println("Count is %d.".formatted(count));
         System.out.println("Count from super class is %s.".formatted(Super.count));
