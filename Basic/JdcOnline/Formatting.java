@@ -16,6 +16,7 @@ void showStudents(Student [] students){
     System.out.printf("%-20s%n","Email");
 
 
+    //for loop
     for(var student : students){
         System.out.printf("%-12s",student.name());
         System.out.printf("%-12s",student.phone());
