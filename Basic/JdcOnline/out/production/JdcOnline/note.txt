@@ -20,9 +20,29 @@
         System.out.print("Constructor");
     }
 
-    -------------------------------------------------------
 
 
-    Static Vs None
+    ----------------------------------------------------------
 
-    if don't used static , need to build object
+
+    protected
+
+    --the same package
+    --not different package
+
+
+   private
+
+   --the same class
+   --not different package
+   --not same package
+
+-----------------------------------------------------
+
+Abstraction
+
+abstract class Animal{
+
+}
+
+cannot create Animal object
