@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BotProgram/BotProgram.iml" filepath="$PROJECT_DIR$/BotProgram/BotProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/JdcOnline.iml" filepath="$PROJECT_DIR$/JdcOnline.iml" />
     </modules>
   </component>
